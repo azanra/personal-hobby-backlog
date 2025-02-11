@@ -2,6 +2,7 @@ export default function Anime(
   image,
   title,
   alias,
+  type,
   episode,
   aired,
   producer,
@@ -15,6 +16,7 @@ export default function Anime(
   this.image = image;
   this.title = title;
   this.alias = alias;
+  this.type = type;
   this.episode = episode;
   this.aired = aired;
   this.producer = producer;
