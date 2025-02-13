@@ -1,8 +1,8 @@
 export default function DetailContent(list) {
+  console.log("test");
   let keyVar, valueVar;
-  let objectList = list.list;
   let arr = [];
-  for (let key in objectList) {
+  for (let key in list) {
     if (
       key !== "image" &&
       key !== "title" &&
@@ -10,7 +10,7 @@ export default function DetailContent(list) {
       key !== "synopsis"
     ) {
       keyVar = key;
-      valueVar = objectList[key];
+      valueVar = list[key];
       arr.push(`${keyVar} : ${valueVar}`);
     }
   }
@@ -23,7 +23,13 @@ export default function DetailContent(list) {
   });
   return (
     <>
-      <ul>{arrFilter}</ul>
+      <ul
+        style={{
+          listStyleType: "none",
+        }}
+      >
+        {arrFilter}
+      </ul>
     </>
   );
 }
