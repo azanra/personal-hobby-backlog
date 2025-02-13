@@ -17,7 +17,7 @@ export default function List(list) {
         />
       </div>
       <div>
-        <DetailContent />
+        <DetailContent list={list} />
       </div>
     </>
   );
