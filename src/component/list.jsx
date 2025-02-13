@@ -1,7 +1,6 @@
 import Image from "./image";
 import MainContent from "./mainContent";
 import DetailContent from "./detailContent";
-import Review from "./review";
 
 export default function List(list) {
   return (
@@ -18,7 +17,6 @@ export default function List(list) {
         />
       </div>
       <div>
-        {console.log("test")}
         <DetailContent {...list} />
       </div>
     </>

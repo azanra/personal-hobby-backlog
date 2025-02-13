@@ -1,5 +1,4 @@
 export default function DetailContent(list) {
-  console.log("test");
   let keyVar, valueVar;
   let arr = [];
   for (let key in list) {
