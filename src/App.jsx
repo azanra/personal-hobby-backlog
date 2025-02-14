@@ -7,8 +7,8 @@ import ReviewComponent from "./component/reviewComponent";
 
 const firstEntry = new Anime(
   "https://cdn.myanimelist.net/images/anime/1448/147351.jpg",
-  "Ore dake Level Up na Ken Season 2: Arise from the Shadow",
   "Solo Leveling Season 2: Arise from the Shadow",
+  "Ore dake Level Up na Ken Season 2: Arise from the Shadow",
   "TV",
   "13",
   "Currently Airing",
