@@ -54,6 +54,7 @@ function App() {
       <List {...firstEntry} />
       <ReviewComponent {...firstReview} />
       <List {...secondEntry} />
+      <ReviewComponent {...secondReview} />
     </>
   );
 }
