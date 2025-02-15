@@ -5,9 +5,9 @@ import DetailContent from "./detailContent";
 export default function List(list) {
   return (
     <div>
-      <div className="flex">
+      <div className="flex p-20">
         <Image imageUrl={list.image} />
-        <div>
+        <div className="p-5">
           <MainContent
             title={list.title}
             alias={list.alias}
@@ -16,7 +16,7 @@ export default function List(list) {
           />
         </div>
       </div>
-      <div>
+      <div className="pl-25">
         <DetailContent {...list} />
       </div>
     </div>

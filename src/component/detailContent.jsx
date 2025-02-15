@@ -15,7 +15,7 @@ export default function DetailContent(list) {
   }
   let arrFilter = arr.map((item, index) => {
     return (
-      <li key={index}>
+      <li key={index} className="mb-4">
         <p>{item}</p>
       </li>
     );
@@ -23,6 +23,7 @@ export default function DetailContent(list) {
   return (
     <>
       <ul
+        className="mb-10"
         style={{
           listStyleType: "none",
         }}
